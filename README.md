@@ -1,23 +1,20 @@
-This project is an example of using a client and server to facilitate transfers between different addresses.
-
-what I would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
+Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
  
 ### Client
 
-The client folder contains a [react app](https://reactjs.org/) using [vite](https://vitejs.dev/). To get started, follow these steps:
+The client using react.js and vite.js.
 
-1. Open up a terminal in the `/client` folder
-2. Run `npm install` to install all the depedencies
-3. Run `npm run dev` to start the application 
-4. Now you should be able to visit the app at http://127.0.0.1:5173/
+Open up a terminal in the `/client` folder
+Run `npm install` to install all the depedencies
+Run `npm run dev` to start the application
 
 ### Server
 
-The server folder contains a node.js server using [express](https://expressjs.com/). To run the server, follow these steps:
+The server folder using express.js
 
-1. Open a terminal within the `/server` folder 
-2. Run `npm install` to install all the depedencies 
-3. Run `node index` to start the server 
+Open a terminal within the `/server` folder 
+Run `npm install` to install all the depedencies 
+Run `node index` to start the server 
 
-The application should connect to the default server port (3042) automatically! 
+The application should connect to the default server port (3042) automatically
 
